@@ -20,6 +20,7 @@ public class DepartmentService {
 
     public Department findDepartmentById(String departmentId) {
         log.info("Inside findDepartmentById method of the DepartmentService");
+        //return departmentRepository.findByDepartmentId(departmentId);
         return departmentRepository.findByDepartmentId(departmentId);
     }
 }
